@@ -42,7 +42,7 @@ class Gato extends Animal {
   }
 }
 const frijol = new Gato("Frijol", "gato", "pelo corto", "frijol.jpg", "Gonzalo");
-console.log(frijol);
+console.log("Nombre: ", frijol.nombre);
 frijol.comer();
 
 class Leon {
